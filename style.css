@@ -1,0 +1,127 @@
+body{
+	font-family: arial,sans-serif;
+
+}
+
+.container{
+	width:80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.link{
+	float:right;
+	margin: 10px 20px;
+}
+
+.link .dot{
+	max-width: 18px;
+	max-height: 18px;
+	position: relative;
+	padding:0px 13px;
+	top: 5px
+}
+
+.link a{
+	font-size:13px;
+	border width:10px;
+	text-decoration: none;
+	color:rgba(0,0,0,0.87);
+	padding:0px 5px;
+}
+
+.link a:hover{
+	text-decoration: underline;
+	color:rgba(0,0,0,0.75);
+}
+
+.link .button{
+	background-color: #4285f4;
+	border:none;
+	height:30px;
+	
+	font-weight: bold;
+	font-size:13px;
+	color:white;
+	padding:0px 13px;
+	border-radius:1px;
+	font-family: arial,sans-serif;
+}
+
+.google .logo{
+	padding-top:139px; 
+	max-width: 272px;
+	max-height: 92px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+		overflow: hidden;
+		border-color: white;
+		clear: both;
+}
+
+.search {
+	clear: both;
+	text-align: center;
+	padding-top: 30px;		
+}
+
+.search input{
+	height:40px;
+	width: 585px;
+	border-radius: 30px 30px;
+	border-bottom-color: : grey;
+	border-width: 1px;
+	background-image: url(search.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 15px;
+	background-position: 10px;
+	background-color: white;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+.search img{
+	height: 20px;
+	width: 20px;
+	position: relative;
+	margin-right: : 200px
+}
+
+.sbutton button{
+	height: 36px;
+	width: 140px;
+	
+	border:0.1px;
+	background-color: #f8f8f8;
+	border-radius:4px;
+	text-align: center;
+	font-family: arial,sans-serif;
+	font-size: small;
+}
+.sbutton :hover{
+	border: 1px solid #c6c6c6;
+}
+
+.sbutton{
+	padding-top: 30px;
+
+}
+
+.offer{
+	padding-top: 20px;
+}
+
+.offer a,label{
+	font-size: small;
+	padding:0px 3px;
+	text-decoration: none;
+	font-family: arial,sans-serif;
+}
+
+.loc {
+	vertical-align: bottom;
+
+}
